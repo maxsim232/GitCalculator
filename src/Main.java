@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(" hello world");
-        System.out.println("git hi");
-        System.out.println(" teat pull rekvest");
+        for (int i = 0; i < 4; i++) {
+            System.out.println();
+            for (int j = 0; j < 4; j++) {
+                System.out.print("*");
+            }
+        }
     }
 }
